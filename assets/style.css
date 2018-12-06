@@ -1,178 +1,79 @@
-/* #name {
-    background : none;
-    font-size: 24px;
-    margin-right: 5%;
-    width:45%;
-    margin-left: 105px;
-    max-width: 240px;
-    background-color: cadetblue;
-    text-align: left;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 26px;
-    margin-bottom: 0%;
-    color: white;
-    font-weight: 700;
+
+.navbar-nav {
+    color: pink;
+    background-color: pink;
+    border-radius: 45%
+}
+
+.ml-auto{
+    color: pink;
+    background-color: pink;
+    border-radius: 45%
 }
 
 
-#topnav{
-    margin: 15%;
-    clear: both;
+
+.about{
+    /* background: url("dark-grey-terrazzo.png"); */
+    background: url("pink_rice.png");
+    color: black;
 }
 
-.navbar{
-    background-color: #ffffff;
-    height: 85px;
-    width: 100%;
-    min-width: 123%;
+.Port{
+    color: pink;
 }
-
-nav{
-    background-color:white;
-    border-bottom: solid 1px #cccccc;
-    padding-bottom: 15px;
-    margin-bottom: 0%;
-    z-index: 4;
-}
-
 
 .AboutMe{
-    color: #4aaaa5;
-    margin-left: 40px;
-    font-weight: 700;
-    padding: 25px;
+    color: black;
 }
 
-.Port {
-    color: #4aaaa5;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 24px;
-    font-weight: 700;
-    margin-top: 20px;
-    padding: 20px;
+.biopara{
+    color: black;
 }
 
-.container {
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
-    background-color: #ffffff;
-    margin-left: 120px;
-    border: solid 1px #cccccc;
-    padding-top: 15px;
-  }
-
-.container-head{
-    max-width: 1260px;
-    clear: both;
-}
-
-  .bodytext{
-    max-width: 960px;
-    background-color: #ffffff;
-    margin-left: 120px;
-    border: solid 1px #cccccc;
-    margin-right: 120px;
-  }
-
-
-
-  p{
-      margin: 0 auto;
-  }
-/*  */
   #biopic{
       margin-right: 14px;
   }
 
-  /* .row{
-padding-top: 15px;
-  background-color: #ffffff;
-  border: solid 1px #cccccc;
-  padding-bottom: 15px;
-  max-width: 960px;
-  }
-
-  .prime{
-      padding-top: 20px;
-  }
-
-.cardpic{
-    max-height: 240px;
+body{
+    background:url("dark-grey-terrazzo.png");
 }
-
-.card-title{
-    background-color: #4aaaa5;
-    height: 20%;
-    margin-top: 70%;
-    background-color: #4aaaa5;
-    color: white;
-    font-size: 35px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-}
-
-.cardpic2{
-    height:240px;
-}
-
-footer{
-        padding: 30px 0;
-        clear: both;
-        font-size: 12px;
-        color: #cccccc;
-        text-align: center;
-        background: #666666;
-        border-top: 8px solid #4aaaa5;
-        height: 50px;
-        width: 100%;
-        position: absolute;
-  }
-  #border{
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-    display: inline;
-    margin-top: 8px;
-    width: 1300px;
-  }
-
-  #line-break{
-      height: 1px;
-      background-color: #777777;
-  }
-
-  .form-group{
-      max-width: 950px;
-      padding-left: 10px;
-  } */
-
-  /* body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 18px;
-    line-height: 34px;
-    color: #777777;
-    background: url("images/gravel.png");
-    width: 100%;
-    padding-right: 200px;
-  }
- */ 
-
 
  .carousel-inner{
-     max-width: 35%;
+     width: 55%;
      display: inline-block;
-     margin-left: 32%;
-     border: dotted 3px steelblue;
+     margin-left: 23%;
+     border: solid 3px pink;
  }
 
  .carousel-control-prev-icon{
-     background-color: pink;
+     background-color: hotpink;
      padding: 15%;
      border-radius: 50%;
  }
 
  .carousel-control-next-icon{
-     background-color: pink;
+     background-color: hotpink;
      padding: 15%;
      border-radius: 50%;
  }
+
+ .carText{
+     margin-top: 15%;
+     background-color: #ff6666;
+     
+     font-weight: 400;
+     border-radius: 3%;
+     
+ }
+
+ .carLabel{
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+ }
+
+ .footer{
+     color: pink;
+ }
+
+ 
+
