@@ -1,14 +1,12 @@
 
-.navbar-nav {
-    color: pink;
-    background-color: pink;
-    border-radius: 45%
-}
 
-.ml-auto{
+.nav-link{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: pink;
     background-color: pink;
-    border-radius: 45%
+    opacity: .7;
+    border-radius: 60%;
+    margin-left: 4%;
 }
 
 
@@ -17,18 +15,25 @@
     /* background: url("dark-grey-terrazzo.png"); */
     background: url("pink_rice.png");
     color: black;
+    padding: 3%;
+    box-shadow: 10px 30px 30px 30px rgba(109, 18, 56, 0.25);
 }
 
 .Port{
     color: pink;
+    text-shadow: -1px 0 rgb(209, 104, 174), 0 1px rgb(209, 104, 174), 1px 0 rgb(209, 104, 174), 0 -1px rgb(209, 104, 174);
 }
 
 .AboutMe{
-    color: black;
+    color: rgb(179, 32, 113);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 800;
 }
 
 .biopara{
     color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 200;
 }
 
   #biopic{
