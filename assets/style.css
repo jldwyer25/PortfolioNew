@@ -2,10 +2,14 @@
 
 .nav-link{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+
+.nav-link:hover { 
     color: pink;
     background-color: pink;
     opacity: .7;
-    border-radius: 60%;
+    /* border-radius: 60%; */
     margin-left: 4%;
 }
 
@@ -23,6 +27,7 @@
     color: pink;
     text-shadow: -1px 0 rgb(209, 104, 174), 0 1px rgb(209, 104, 174), 1px 0 rgb(209, 104, 174), 0 -1px rgb(209, 104, 174);
 }
+
 
 .AboutMe{
     color: rgb(179, 32, 113);
@@ -82,3 +87,16 @@ body{
 
  
 
+ @media screen and (max-width: 640px) {
+    .nav-link:hover { 
+       
+    }
+
+    .navbar-nav:hover{
+        color: pink;
+        background-color: pink;
+        opacity: .7;
+        max-width: 12%;
+        margin-left: 4%;
+    }
+ }
